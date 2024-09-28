@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "desenvolvimento de apis em python com flask"
+version = "0.1.0"
+description = ""
+authors = ["franciscoeymardneto <francisco.eymard.oliveira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+flake8 = "^7.1.1"
+black = "^24.8.0"
+isort = "^5.13.2"
+python-dotenv = "^1.0.1"
+watchdog = "^5.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
